@@ -1,0 +1,38 @@
+{
+  "name": "daily-mood-recorder",
+  "version": "1.0.0",
+  "description": "Record your daily mood",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuligowy/daily-mood-recorder.git"
+  },
+  "keywords": [
+    "mood",
+    "recorded",
+    "heroku",
+    "npm",
+    "node",
+    "js",
+    "cloud",
+    "mindfulness"
+  ],
+  "author": "kuligowy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuligowy/daily-mood-recorder/issues"
+  },
+  "homepage": "https://github.com/kuligowy/daily-mood-recorder#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
